@@ -1,0 +1,15 @@
+.nyc_output
+coverage
+/lib
+umd
+node_modules
+*.log
+reference
+
+# Rollup
+
+.rpt2_cache
+
+# Build
+
+build

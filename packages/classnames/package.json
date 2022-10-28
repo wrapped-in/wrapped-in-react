@@ -1,0 +1,26 @@
+{
+  "name": "@wrapped-in-react/classname",
+  "version": "1.0.0",
+  "description": "React ClassNames merge",
+  "author": "Wrapped-in",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/wrapped-in/wrapped-in-react/tree/master/packages/classnames",
+  "repository": "https://github.com/wrapped-in/wrapped-in-react",
+  "files": [
+    "build",
+    "classnames.d.ts"
+  ],
+  "keywords": [
+    "wrapped-in",
+    "classes",
+    "merge",
+    "js"
+  ],
+  "types": "classnames.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "node ../../scripts/rollup/build.js",
+    "unit": "../../node_modules/.bin/jest --config ../../.config/jest/jest.config.js"
+  }
+}
