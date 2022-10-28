@@ -1,17 +1,17 @@
-# @wrapped-react/classnames 
+# @wrapped-in-react/classnames 
 
 Tiny helper for merging CSS classes.
 
 ## Install
 
 ```
-npm i -S @bem-react/classnames
+npm i -S @wrapped-in-react/classnames
 ```
 
 ## Usage
 
 ```ts
-import { classnames } from '@bem-react/classnames'
+import { classnames } from '@wrapped-in-react/classnames'
 
-classnames('Block', undefined, 'Block2', 'Block') // Block Block2
+classnames('Block', undefined, 'foo', 'Block') // Block foo
 ```
